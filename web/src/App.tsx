@@ -1,17 +1,14 @@
 import React from "react";
+import ImageCover from "./components/image-cover";
+import TitleGlitch from "./components/title-glitch";
 import "./tailwind.output.css";
+import "./styles/scanlines.scss";
 
 function App() {
   return (
-    <div className="max-w-md mx-auto flex p-6 bg-gray-100 mt-10 rounded-lg shadow-xl">
-      <div className="ml-6 pt-1">
-        <h1 className="text-2xl text-blue-700 leading-tight">
-          Tailwind and Create React App
-        </h1>
-        <p className="text-base text-gray-700 leading-normal">
-          Building apps together
-        </p>
-      </div>
+    <div className="h-screen w-full bg-gray-600 scanlines">
+      <TitleGlitch title="JIBONEUS" />
+      <ImageCover imageName="mic-hanging.jpg" imageAlt="Hanging Mic" />
     </div>
   );
 }
