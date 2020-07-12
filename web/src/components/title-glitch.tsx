@@ -7,7 +7,7 @@ type Props = {
 
 function TitleGlitch({ title }: Props) {
   return (
-    <div className="title-glitch-position font-extrabold text-6xl">
+    <div className="font-extrabold text-5xl">
       <div className="glitch" data-text={title}>
         {title}
       </div>
