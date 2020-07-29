@@ -18,17 +18,6 @@ function ImageCover({ imageName, imageAlt }: Props) {
       }}
     ></div>
   );
-  /*
-  return (
-    <div className="scanlines">
-      <img
-        className="object-cover h-auto w-full"
-        alt={imageAlt}
-        src={imagePath}
-      />
-    </div>
-  );
-  */
 }
 
 export default ImageCover;
